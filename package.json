@@ -1,16 +1,28 @@
 {
-  "name": "omni-ring-example",
-  "version": "1.0.0",
-  "description": "Example for NFC Ring OMNI",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@paddek/smartcard": "^1.0.2",
-    "node-gp": "^1.12.0"
-  }
+    "name": "omni-ring-example",
+    "version": "1.0.0",
+    "description": "Example for NFC Ring OMNI",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "demo": "node index.js"
+    },
+    "keywords": [
+        "NFC Ring",
+        "OMNI Ring"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PaddeK/omni-ring-example.git"
+    },
+    "bugs": {
+        "url": "https://github.com/PaddeK/omni-ring-example/issues"
+    },
+    "homepage": "https://github.com/PaddeK/omni-ring-example",
+    "author": "paddek <pkloes@web.de>",
+    "license": "ISC",
+    "dependencies": {
+        "@paddek/smartcard": "^1.0.2",
+        "node-gp": "^1.12.0"
+    }
 }
