@@ -12,6 +12,9 @@
         "NFC Ring",
         "OMNI Ring"
     ],
+    "bin": {
+        "omni-ring-example": "./cli.js"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/PaddeK/omni-ring-example.git"
