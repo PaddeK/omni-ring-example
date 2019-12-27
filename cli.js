@@ -1,3 +1,11 @@
 #!/usr/bin/env node
 
-console.log(process.argv);
+switch (process.argv.pop()) {
+    case 'convert':
+        require('./examples/convert');
+        break;
+    default:
+        require('./index');
+        break;
+}
+
