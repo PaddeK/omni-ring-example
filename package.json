@@ -1,6 +1,6 @@
 {
     "name": "@paddek/omni-ring-example",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Example for NFC Ring OMNI",
     "main": "index.js",
     "scripts": {
